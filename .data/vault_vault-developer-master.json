@@ -1,0 +1,593 @@
+{
+  "vaultId": "vault-developer-master",
+  "data": {
+    "version": 2,
+    "vaultId": "vault-developer-master",
+    "vaultMasterPin": "5886",
+    "profile": {
+      "name": "Cassandra Kay Saddler",
+      "preferredName": "Cassie",
+      "title": "Software Builder & Digital Creator",
+      "age": 43,
+      "birthDate": "1983-05-08",
+      "email": "netlify.my-first-mvp.app",
+      "phone": "+1 (720) 488-7216",
+      "pronouns": "she/her",
+      "avatarUrl": "",
+      "bio": "Building indie web tools, mastering full-stack engineering, and cultivating daily intentionality.",
+      "streetAddress": "122 South 15th Street, Apt #66",
+      "city": "Las Vegas",
+      "stateProvince": "NV",
+      "postalCode": "89101",
+      "country": "United States",
+      "timezone": "America/Los_Angeles (PST)",
+      "emergencyContact": {
+        "name": "Timothy Dylan Green",
+        "relation": "Husband",
+        "phone": "+1 (702) 482-6842"
+      },
+      "bloodType": "O+",
+      "medicalNotes": "No major allergies",
+      "socialLinks": {
+        "website": "https://cassiescreations.dev",
+        "github": "https://github.com/cassandrakay",
+        "linkedin": "https://linkedin.com/in/cassandrakay",
+        "twitter": "https://x.com/cassiescreations_dev"
+      },
+      "mainGoal": "Launch 1 profitable micro-SaaS, master full-stack software, and build daily calm.",
+      "monthlyRevenueTarget": 1000,
+      "primaryFocus": "Shipping Micro-SaaS & Creative Projects",
+      "focusTheme": "Unstoppable Momentum & Daily Calm",
+      "skills": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Tailwind CSS",
+        "UI/UX Design",
+        "Copywriting"
+      ],
+      "activeTheme": "midnight",
+      "themeWallpaperMode": "pattern"
+    },
+    "notes": [
+      {
+        "id": "note-1",
+        "title": "🚀 Second Brain Architecture & Operating Rules",
+        "content": "# My Life Operating Principles\n\n1. **Capture Fast, Organize Later**: When inspiration strikes or a task pops up, dump it into the Quick Dump bar immediately.\n2. **Small Daily Ships**: 1 hour of coding a day beats 10 hours once a week.\n3. **Monetize What I Learn**: Every tutorial or project can become a template, a micro-tool, or a digital asset.\n4. **Protect Mental Clarity**: 8 glasses of water, 7.5 hours sleep, and 1 creative hobby session every weekend.",
+        "folder": "Life Blueprint",
+        "tags": [
+          "Principles",
+          "Productivity",
+          "Mindset"
+        ],
+        "pinned": true,
+        "createdAt": "2026-09-08T11:46:42.791Z",
+        "updatedAt": "2026-09-13T11:46:42.792Z",
+        "color": "blue"
+      },
+      {
+        "id": "note-2",
+        "title": "💡 Micro-SaaS & Side Hustle Ideas to Explore",
+        "content": "### Top Contenders for 2026\n- **DevAsset Hub**: Curated lightweight SVG animations and Tailwind UI components for indie hackers.\n- **Notion/Obsidian to Website Generator**: Zero-config static site generator for personal notes.\n- **AI Invoice & Freelance Time Tracker**: Simple 1-click timer with automated Stripe payment links for freelancers.\n- **Custom Digital Wallpapers & Icon Packs**: Hand-drawn synthwave/minimalist icon sets for iOS and macOS.",
+        "folder": "Business & Hustles",
+        "tags": [
+          "Ideas",
+          "SaaS",
+          "Income"
+        ],
+        "pinned": false,
+        "createdAt": "2026-09-10T11:46:42.792Z",
+        "updatedAt": "2026-09-13T11:46:42.792Z",
+        "color": "emerald"
+      },
+      {
+        "id": "note-3",
+        "title": "💻 React 19 & Full-Stack Architecture Cheatsheet",
+        "content": "### Essential Patterns\n```tsx\n// Server-side Gemini API execution\nimport { GoogleGenAI } from \"@google/genai\";\nconst ai = new GoogleGenAI();\n```\n\n- Tailwind CSS v4 uses `@import \"tailwindcss\";` directly.\n- Clean decoupled components keep state scalable across multi-device sync.\n- Keep API keys in server proxies.",
+        "folder": "Coding",
+        "tags": [
+          "React",
+          "TypeScript",
+          "Frontend"
+        ],
+        "pinned": false,
+        "createdAt": "2026-09-11T11:46:42.792Z",
+        "updatedAt": "2026-09-13T11:46:42.792Z",
+        "color": "purple"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj-1",
+        "title": "DevAsset Vault — Digital Asset Store",
+        "description": "A fast, lightweight marketplace for web developers to download premium UI icons, micro-animations, and boilerplate code.",
+        "category": "Full Stack",
+        "status": "In Development",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Express",
+          "Stripe API"
+        ],
+        "repoUrl": "https://github.com/myusername/devasset-vault",
+        "liveUrl": "https://devasset-preview.app",
+        "architectureNotes": "Client React SPA with server-side Express API proxying Stripe webhooks and generating signed download links.",
+        "tasks": [
+          {
+            "id": "pt-1",
+            "title": "Set up Stripe Checkout webhook integration",
+            "completed": true
+          },
+          {
+            "id": "pt-2",
+            "title": "Design product preview cards and instant filter",
+            "completed": true
+          },
+          {
+            "id": "pt-3",
+            "title": "Add license key generator upon successful payment",
+            "completed": false
+          },
+          {
+            "id": "pt-4",
+            "title": "Create landing page copy and social preview banner",
+            "completed": false
+          }
+        ],
+        "updatedAt": "2026-09-13T11:46:42.793Z"
+      },
+      {
+        "id": "proj-2",
+        "title": "PixelForge Studio — Creative Art Portfolio",
+        "description": "Interactive showcase of my digital illustrations, pixel art, and generative canvases with downloadable high-res prints.",
+        "category": "Creative/Game",
+        "status": "Planning",
+        "techStack": [
+          "HTML5 Canvas",
+          "WebGL",
+          "React",
+          "Motion"
+        ],
+        "tasks": [
+          {
+            "id": "pt-21",
+            "title": "Curate top 12 art pieces into media organizer",
+            "completed": true
+          },
+          {
+            "id": "pt-22",
+            "title": "Build smooth zoom & inspect lightbox",
+            "completed": false
+          },
+          {
+            "id": "pt-23",
+            "title": "Add Gumroad or Ko-fi print link buttons",
+            "completed": false
+          }
+        ],
+        "updatedAt": "2026-09-13T11:46:42.793Z"
+      }
+    ],
+    "learning": [
+      {
+        "id": "learn-1",
+        "topic": "Modern TypeScript & Advanced Generics",
+        "category": "Coding & Tech",
+        "status": "In Progress",
+        "progressPct": 75,
+        "keyTakeaways": "Conditional types, Mapped types (Record, Pick, Omit), Infer keyword for extracting return types from promise chains.",
+        "resources": [
+          {
+            "id": "lr-1",
+            "title": "Total TypeScript by Matt Pocock",
+            "type": "Course",
+            "completed": true
+          },
+          {
+            "id": "lr-2",
+            "title": "TypeScript 5.8 Official Handbook",
+            "type": "Doc",
+            "completed": true
+          },
+          {
+            "id": "lr-3",
+            "title": "Building a Type-Safe Router from scratch",
+            "type": "Project",
+            "completed": false
+          }
+        ],
+        "updatedAt": "2026-09-13T11:46:42.793Z"
+      },
+      {
+        "id": "learn-2",
+        "topic": "Digital Illustration & Procreate Workflow",
+        "category": "Design & Art",
+        "status": "In Progress",
+        "progressPct": 50,
+        "keyTakeaways": "Mastering dynamic values, light source consistency, color harmony using triad palette wheels.",
+        "resources": [
+          {
+            "id": "lr-4",
+            "title": "Color Theory & Lighting Fundamentals",
+            "type": "Video",
+            "completed": true
+          },
+          {
+            "id": "lr-5",
+            "title": "Character Design Anatomy Practice",
+            "type": "Interactive",
+            "completed": false
+          }
+        ],
+        "updatedAt": "2026-09-13T11:46:42.793Z"
+      },
+      {
+        "id": "learn-3",
+        "topic": "Zero-Capital Indie Marketing & SEO",
+        "category": "Business & Marketing",
+        "status": "Want to Learn",
+        "progressPct": 20,
+        "keyTakeaways": "Build in public on X and Reddit, leverage long-tail programmatic SEO keywords.",
+        "resources": [
+          {
+            "id": "lr-6",
+            "title": "The Mom Test - Rob Fitzpatrick",
+            "type": "Book",
+            "completed": true
+          },
+          {
+            "id": "lr-7",
+            "title": "Micro-SaaS Marketing Playbook",
+            "type": "Doc",
+            "completed": false
+          }
+        ],
+        "updatedAt": "2026-09-13T11:46:42.793Z"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "fc-1",
+        "question": "What is the difference between type and interface in TypeScript?",
+        "answer": "Interfaces can be extended via declaration merging and are generally optimized for object shapes. Types can represent primitives, unions, tuples, and complex mapped/conditional types.",
+        "category": "Coding & Tech",
+        "difficulty": "Medium",
+        "timesReviewed": 3,
+        "lastScore": "know"
+      },
+      {
+        "id": "fc-2",
+        "question": "What is an MVP (Minimum Viable Product)?",
+        "answer": "The simplest version of a product that allows you to collect the maximum amount of validated learning about customers with the least effort and money.",
+        "category": "Business & Marketing",
+        "difficulty": "Easy",
+        "timesReviewed": 2,
+        "lastScore": "know"
+      },
+      {
+        "id": "fc-3",
+        "question": "What is the 'Rule of Thirds' in visual composition?",
+        "answer": "Dividing an image with 2 horizontal and 2 vertical lines to place focal points along the grid intersections for more natural balance and dynamic interest.",
+        "category": "Design & Art",
+        "difficulty": "Easy",
+        "timesReviewed": 1,
+        "lastScore": "know"
+      }
+    ],
+    "vault": [
+      {
+        "id": "v-1",
+        "serviceName": "GitHub Developer",
+        "usernameOrEmail": "developer@example.com",
+        "passwordEncrypted": "ghp_secureRandomDevTokenX992!",
+        "category": "Dev & Cloud",
+        "url": "https://github.com",
+        "notes": "Primary account for code repositories and deployment actions.",
+        "securityStrength": "strong",
+        "isFavorite": true,
+        "updatedAt": "2026-09-13T11:46:42.793Z"
+      },
+      {
+        "id": "v-2",
+        "serviceName": "Cloudflare & Domains",
+        "usernameOrEmail": "developer@example.com",
+        "passwordEncrypted": "K#9x_wQ88!mP2026",
+        "category": "Dev & Cloud",
+        "url": "https://dash.cloudflare.com",
+        "notes": "DNS, SSL certificates, and Workers.",
+        "securityStrength": "strong",
+        "isFavorite": true,
+        "updatedAt": "2026-09-13T11:46:42.793Z"
+      },
+      {
+        "id": "v-3",
+        "serviceName": "Stripe Connect",
+        "usernameOrEmail": "developer@example.com",
+        "passwordEncrypted": "Str!pe_Dev_Secret_2026",
+        "category": "Finance & Banking",
+        "url": "https://dashboard.stripe.com",
+        "notes": "Payment processing for side hustles.",
+        "securityStrength": "strong",
+        "isFavorite": false,
+        "updatedAt": "2026-09-13T11:46:42.793Z"
+      }
+    ],
+    "financeEntries": [
+      {
+        "id": "fin-1",
+        "type": "income",
+        "amount": 180,
+        "category": "Freelance/Coding",
+        "description": "Bug fixes & landing page tweak for client",
+        "date": "2026-09-13",
+        "sourceOrClient": "Freelance Client Dave"
+      },
+      {
+        "id": "fin-2",
+        "type": "income",
+        "amount": 45,
+        "category": "Side Hustle/Product",
+        "description": "Sold 3 icon packs on Gumroad",
+        "date": "2026-09-10",
+        "sourceOrClient": "Gumroad Store"
+      },
+      {
+        "id": "fin-3",
+        "type": "expense",
+        "amount": 14,
+        "category": "Subscriptions/Dev Tools",
+        "description": "Domain Renewal",
+        "date": "2026-09-09"
+      },
+      {
+        "id": "fin-4",
+        "type": "expense",
+        "amount": 25,
+        "category": "Learning/Books",
+        "description": "Online coding book bundle",
+        "date": "2026-09-06"
+      }
+    ],
+    "sideHustles": [
+      {
+        "id": "sh-1",
+        "title": "Indie Dev UI Boilerplate & Icon Pack",
+        "tagline": "Cut 40 hours of frontend styling for SaaS builders.",
+        "targetAudience": "Solo developers, indie hackers, bootcamp grads building MVPs",
+        "monetization": "One-time purchase ($29 standard, $59 extended commercial license)",
+        "difficulty": "Easy",
+        "initialCost": "$0 (uses existing tools)",
+        "timeToFirstDollar": "1-2 weeks",
+        "potentialMonthlyRevenue": "$400 - $1,500/mo",
+        "status": "Building MVP",
+        "score": 9,
+        "firstThreeSteps": [
+          "Package top 20 hand-crafted responsive Tailwind components",
+          "Create 1 live interactive demo page with copy-to-clipboard code",
+          "Post a free mini-pack on Product Hunt & Reddit r/SideProject"
+        ],
+        "skillsNeeded": [
+          "Tailwind CSS",
+          "React",
+          "Design taste"
+        ],
+        "notes": "Has zero recurring overhead and high margins.",
+        "checklist": [
+          {
+            "id": "shc-1",
+            "text": "Create 10 dashboard card components",
+            "done": true
+          },
+          {
+            "id": "shc-2",
+            "text": "Create checkout page with Stripe Checkout",
+            "done": true
+          },
+          {
+            "id": "shc-3",
+            "text": "Write documentation on how to drop into Vite/Next.js",
+            "done": false
+          }
+        ],
+        "actualRevenueEarned": 45,
+        "createdAt": "2026-09-13T11:46:42.793Z"
+      },
+      {
+        "id": "sh-2",
+        "title": "Custom Digital Art & Twitch/Discord Overlays",
+        "tagline": "Bespoke animated badges, banners, and streaming assets for content creators.",
+        "targetAudience": "Streamers, YouTubers, Discord community owners",
+        "monetization": "Custom commission tiers ($50 - $200 per pack)",
+        "difficulty": "Medium",
+        "initialCost": "$0",
+        "timeToFirstDollar": "1 week",
+        "potentialMonthlyRevenue": "$300 - $1,200/mo",
+        "status": "Validating",
+        "score": 8,
+        "firstThreeSteps": [
+          "Create 3 distinct style sample packs (Cyberpunk, Cozy Pixel, Minimalist)",
+          "Post portfolio link on social channels with commissions open tag",
+          "Deliver first 2 orders at introductory discount for 5-star testimonials"
+        ],
+        "skillsNeeded": [
+          "Digital illustration",
+          "Photoshop/Procreate",
+          "Customer service"
+        ],
+        "checklist": [
+          {
+            "id": "shc-4",
+            "text": "Create showcase gallery",
+            "done": false
+          },
+          {
+            "id": "shc-5",
+            "text": "Set up payment invoice link",
+            "done": true
+          }
+        ],
+        "actualRevenueEarned": 0,
+        "createdAt": "2026-09-13T11:46:42.793Z"
+      }
+    ],
+    "mediaAssets": [
+      {
+        "id": "media-1",
+        "title": "Cyberpunk City Blueprint - Inspiration",
+        "fileName": "cyberpunk_moodboard.svg",
+        "dataUrlOrPath": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+        "mediaType": "image",
+        "category": "Art & Illustrations",
+        "tags": [
+          "Cyberpunk",
+          "Palette",
+          "Art"
+        ],
+        "createdAt": "2026-09-13T11:46:42.793Z"
+      },
+      {
+        "id": "media-2",
+        "title": "DevAsset Brand Logo & Icon Mark",
+        "fileName": "devasset_icon.svg",
+        "dataUrlOrPath": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+        "mediaType": "image",
+        "category": "Code Assets & Mockups",
+        "tags": [
+          "Vector",
+          "Brand",
+          "Code"
+        ],
+        "createdAt": "2026-09-13T11:46:42.793Z"
+      }
+    ],
+    "creativeHobbies": [
+      {
+        "id": "hobby-1",
+        "title": "Lo-Fi Beats & Ambient Synth Exploration",
+        "hobbyType": "Music & Audio",
+        "status": "Work in Progress",
+        "toolsUsed": [
+          "Ableton Live / Reaper",
+          "Vital Synth",
+          "MIDI Keyboard"
+        ],
+        "notes": "Working on a 4-track peaceful coding ambient soundtrack to use during deep work sessions.",
+        "dateStarted": "2026-07-20"
+      },
+      {
+        "id": "hobby-2",
+        "title": "Sci-Fi Isometric Room Illustrations",
+        "hobbyType": "Digital Art & Illustration",
+        "status": "Completed",
+        "toolsUsed": [
+          "Procreate",
+          "Apple Pencil",
+          "Blender for blockout"
+        ],
+        "notes": "Finished the 'Late Night Hacker Desk' piece. High contrast neon lighting with potted cyber-plants.",
+        "dateStarted": "2026-06-15"
+      }
+    ],
+    "selfCareLogs": [
+      {
+        "id": "sc-initial",
+        "date": "2026-09-13",
+        "mood": "Good",
+        "energyLevel": 8,
+        "sleepHours": 7.5,
+        "waterGlasses": 6,
+        "gratitude": "Grateful for having working code, coffee in the morning, and the freedom to build my future.",
+        "wins": [
+          "Organized my entire knowledge base",
+          "Maintained daily coding momentum"
+        ]
+      }
+    ],
+    "habits": [
+      {
+        "id": "hab-1",
+        "title": "60 Mins Deep Coding / Building",
+        "category": "Coding & Build",
+        "iconName": "Code",
+        "targetDaysPerWeek": 6,
+        "completedDates": [
+          "2026-09-13"
+        ]
+      },
+      {
+        "id": "hab-2",
+        "title": "Hydrate (8 Glasses of Water)",
+        "category": "Mind & Health",
+        "iconName": "Droplets",
+        "targetDaysPerWeek": 7,
+        "completedDates": [
+          "2026-09-13"
+        ]
+      },
+      {
+        "id": "hab-3",
+        "title": "Review 5 Flashcards or 1 Tutorial",
+        "category": "Learning",
+        "iconName": "BookOpen",
+        "targetDaysPerWeek": 5,
+        "completedDates": [
+          "2026-09-13"
+        ]
+      },
+      {
+        "id": "hab-4",
+        "title": "Log Finances / Side Income",
+        "category": "Finance & Hustle",
+        "iconName": "DollarSign",
+        "targetDaysPerWeek": 7,
+        "completedDates": [
+          "2026-09-13"
+        ]
+      },
+      {
+        "id": "hab-5",
+        "title": "30 Mins Creative Art / Music / Hobby",
+        "category": "Art & Creation",
+        "iconName": "Palette",
+        "targetDaysPerWeek": 4,
+        "completedDates": []
+      },
+      {
+        "id": "hab-6",
+        "title": "Nightly Mind De-Clutter & Sleep Prep",
+        "category": "Mind & Health",
+        "iconName": "Moon",
+        "targetDaysPerWeek": 7,
+        "completedDates": []
+      }
+    ],
+    "quickBrainDumpList": [
+      {
+        "id": "q-1",
+        "text": "Buy domain for micro-SaaS experiment",
+        "done": false,
+        "createdAt": "2026-09-13T11:46:42.793Z"
+      },
+      {
+        "id": "q-2",
+        "text": "Export clean PNGs of new vector icon set",
+        "done": true,
+        "createdAt": "2026-09-13T11:46:42.793Z"
+      },
+      {
+        "id": "q-3",
+        "text": "Back up encrypted password vault",
+        "done": true,
+        "createdAt": "2026-09-13T11:46:42.793Z"
+      }
+    ],
+    "lastSynced": "2026-09-13T11:46:43.556Z",
+    "canvasCards": [],
+    "canvasDrawings": [],
+    "canvasConnections": [],
+    "calendarEvents": []
+  },
+  "lastSynced": "2026-09-13T11:46:45.660Z",
+  "version": 3
+}

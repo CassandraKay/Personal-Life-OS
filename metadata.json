@@ -1,0 +1,6 @@
+{
+  "name": "Personal Life OS",
+  "description": "An all-in-one personal productivity OS featuring offline Bible study & prayer journal, coding project workbench with live interactive playground, web/media embeds, notes repository, financial planner, chaotic creative canvas, encrypted vault, and self-care routine.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
