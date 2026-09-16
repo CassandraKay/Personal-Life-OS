@@ -1,3 +1,3 @@
-### Personal-Life-OS
+# Personal-Life-OS
 ## My first App
 Coming soon ...........................
